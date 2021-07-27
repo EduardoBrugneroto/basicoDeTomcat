@@ -18,7 +18,7 @@ public class Banco {
 	}
 
 	public void adiocna(Empresa empresa) {
-		lista.add(empresa);
+		Banco.lista.add(empresa);
 		
 	}
 	

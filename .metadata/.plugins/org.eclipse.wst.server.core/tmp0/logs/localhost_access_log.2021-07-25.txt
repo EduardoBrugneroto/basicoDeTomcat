@@ -1,0 +1,4 @@
+127.0.0.1 - - [25/Jul/2021:04:29:06 -0300] "GET / HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:04:29:07 -0300] "GET /gerenciador/formNovaEmpresa.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:04:29:10 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 200 66
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:04:29:13 -0300] "GET /gerenciador/listaEmpresas HTTP/1.1" 200 90
