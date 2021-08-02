@@ -17,3 +17,17 @@
 0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:37:05 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 500 1231
 0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:37:09 -0300] "GET /gerenciador/formNovaEmpresa.jsp HTTP/1.1" 200 443
 0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:37:14 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 500 1729
+127.0.0.1 - - [30/Jul/2021:11:38:41 -0300] "GET / HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:38:52 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 500 1729
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:38:53 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 500 1729
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:38:53 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 500 1729
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:40:28 -0300] "GET /gerenciador/formNovaEmpresa.jsp HTTP/1.1" 200 443
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:40:40 -0300] "GET /gerenciador/formNovaEmpresa.jsp HTTP/1.1" 200 356
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:40:49 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 200 94
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:40:52 -0300] "GET /gerenciador/listaEmpresas HTTP/1.1" 200 317
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:41:13 -0300] "GET /gerenciador/formNovaEmpresa.html HTTP/1.1" 404 799
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:41:18 -0300] "GET /gerenciador/formNovaEmpresa.jsp HTTP/1.1" 200 356
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:41:23 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 500 1729
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:41:34 -0300] "GET /gerenciador/formNovaEmpresa.jsp HTTP/1.1" 200 356
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:41:37 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 200 91
+0:0:0:0:0:0:0:1 - - [30/Jul/2021:11:41:44 -0300] "GET /gerenciador/listaEmpresas HTTP/1.1" 200 354
