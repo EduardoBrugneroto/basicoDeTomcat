@@ -3,3 +3,9 @@
 1628017553969	Move compilation unit
 1628023478049	Copy compilation unit
 1628024583442	Delete elements
+1628190786624	Move 'formAlteraEmpresa.jsp' to 'view'
+1628190789230	Move 'formNovaEmpresa.jsp' to 'view'
+1628190792509	Move 'listaEmpresas.jsp' to 'view'
+1628190794634	Move 'novaEmpresaCriada.jsp' to 'view'
+1628192047902	Copy compilation unit
+1628197785939	Copy file
