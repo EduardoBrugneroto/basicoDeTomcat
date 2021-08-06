@@ -16,4 +16,7 @@
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="java.net.NetworkInterface"/>
+<fullyQualifiedTypeName name="br.com.alura.gerenciador.acao.Acao"/>
+<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
 </qualifiedTypeNameHistroy>
