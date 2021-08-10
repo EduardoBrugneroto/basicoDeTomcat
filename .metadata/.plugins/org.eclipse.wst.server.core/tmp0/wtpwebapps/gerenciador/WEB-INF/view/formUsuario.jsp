@@ -9,6 +9,8 @@
 </head>
 <body>
 
+	<c:import url="logout-parcial.jsp"/>
+
     <form action="/gerenciador/entrada" method="post">
 
         Login: <input type="text" name="Login"  placeholder="Digie seu login"/>
