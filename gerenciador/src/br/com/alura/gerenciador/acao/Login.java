@@ -14,23 +14,24 @@ public class Login implements Acao {
 	@Override
 	public String executa(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		
-			String Login = request.getParameter ("Login");
-			String Senha = request.getParameter("Senha");
-		
-			System.out.println("logando" + Login);
-			
-			Banco banco = new Banco();
-			
-		    Usuario usuario = banco.existeLogin(Login, Senha);
-			
-			
-			if(usuario != null ) {
-				System.out.println("usuario existe");
-				return "rediret:entrada?acao=ListaEmpresas";
-			}
-			return "rediret:entrada?acao=LoginForm";
-	
+
+		String login = request.getParameter("login");
+		String senha = request.getParameter("senha");
+
+		System.out.println("Logando " + login);
+
+		Banco banco = new Banco();
+
+		Usuario usuario = banco.existeUsuario(login, senha);
+
+		if (usuario != null) {
+			System.out.println("Usuario existe");
+			return "redirect:entrada?acao=ListaEmpresas";
+		} else {
+			return "redirect:entrada?acao=LoginForm";
+
+		}
+
 	}
 
 }

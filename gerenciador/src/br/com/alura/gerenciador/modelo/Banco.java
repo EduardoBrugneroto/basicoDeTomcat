@@ -3,6 +3,7 @@ package br.com.alura.gerenciador.modelo;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.concurrent.SynchronousQueue;
 
 public class Banco {
 	
@@ -31,6 +32,9 @@ public class Banco {
 
 	    listaUsuarios.add(u1);
 	    listaUsuarios.add(u2);
+	    
+	    
+	    
 	}
 
 	public void adiocna(Empresa empresa) {
@@ -62,18 +66,19 @@ public class Banco {
 		}
 		return null;
 	}
-
-	public Usuario existeLogin(String login, String senha) {
-		for (Usuario usuario : listaUsuarios) {
-			if (usuario.ehIgual(login, senha)) {
-				
-				return usuario;
-
-			}
-			};
-			
 	
-		return null;
+	
+	
+	public Usuario existeUsuario(String login, String senha) {
+		
+		for(Usuario usuario : listaUsuarios) {
+			if(usuario.ehIgual(login, senha)) { 
+	            return usuario;
+
+	        }
+	    }
+		
+		
+	    return null;
 	}
-	
 }

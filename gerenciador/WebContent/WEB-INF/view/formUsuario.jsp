@@ -9,11 +9,12 @@
 </head>
 <body>
 
-    <form action="${linkEntradaServlet}" method="post">
+    <form action="/gerenciador/entrada" method="post">
 
-        Login: <input type="text" name="nome"  placeholder="Digite seu Login"/>
-        Senha: <input type="password" name="senha" placeholder="Digite sua Senha" />
-        <input type="hidden" name="acao" value="Login"/>
+        Login: <input type="text" name="Login"  placeholder="Digie seu login"/>
+        Senha: <input type="password" name="senha" placeholder="Digite sua senha" />
+
+        <input type="hidden" name="acao" value="Login" /> 
 
         <input type="submit" />
     </form>
