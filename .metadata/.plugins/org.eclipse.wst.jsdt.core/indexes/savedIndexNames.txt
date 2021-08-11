@@ -1,9 +1,7 @@
 INDEX VERSION 1.4+C:\Users\xedux\Desktop\trabalho\alura-java\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-176315992.index
-3575497911.index
-2656876495.index
-2656876495.index
-359346145.index
-4092974155.index
 456790899.index
 1257508440.index
+359346145.index
+4092974155.index
+3575497911.index
+176315992.index
